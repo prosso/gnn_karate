@@ -1,0 +1,14 @@
+TUTORIAL: https://towardsdatascience.com/a-beginners-guide-to-graph-neural-networks-using-pytorch-geometric-part-1-d98dc93e7742
+
+CONDA ENVIRONMENT: conda activate transformers
+
+Let’s pick a simple graph dataset like Zachary’s Karate Club [1]. Here, the nodes represent 34 students who were involved in the club and the links represent 78 different interactions between pairs of members outside the club. There are two different types of labels i.e, the two factions. We can use this information to formulate a node classification task.
+
+In order to formulate the problem, we need:
+-The graph itself and the labels for each node
+-The edge data in the Coordinate Format (COO) - row, col, data
+-Embeddings or numerical representations for the nodes
+
+
+
+[1] https://en.wikipedia.org/wiki/Zachary%27s_karate_club
